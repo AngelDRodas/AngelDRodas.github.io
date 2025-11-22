@@ -1,7 +1,7 @@
 # _config.yml
 title: "Angel Rodas Portfolio"
 author: "Angel Rodas"
-description: "Mechanical & Aerospace Engineer | UC Davis HRVIP Lab | Space Systems, Robotics, and Human Integration"
+description: "Mechanical & Aerospace MS Student | UC Davis HRVIP Lab"
 theme: jekyll-theme-Midnight
 logo: /assets/img/profile.jpg   # Optional — add your photo or logo
 show_downloads: false           # Set true if you want a “Download” button
