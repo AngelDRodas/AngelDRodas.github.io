@@ -3,8 +3,6 @@ layout: default
 title: "Portfolio"
 ---
 
-# Angel Rodas
-
 Welcome! I'm a Mechanical & Aerospace Engineering graduate student at UC Davis.
 This site highlights some of my engineering and coding projects.
 
