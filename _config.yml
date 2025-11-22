@@ -3,7 +3,7 @@ title: "Angel Rodas's Portfolio"
 author: "Angel Rodas"
 description: "Mechanical & Aerospace MS Student | UC Davis HRVIP Lab"
 theme: jekyll-theme-Midnight
-logo: /assets/img/profile.jpg   # Optional — add your photo or logo
+logo: /assets/img/profile.png   # Optional — add your photo or logo
 show_downloads: false           # Set true if you want a “Download” button
 github:
   is_project_page: false
