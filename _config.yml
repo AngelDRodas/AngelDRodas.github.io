@@ -4,7 +4,8 @@ author: "Angel Rodas"
 description: "Mechanical & Aerospace MS Student | UC Davis HRVIP Lab"
 
 # Theme
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: cotes2020/jekyll-theme-chirpy
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
