@@ -2,8 +2,21 @@
 title: "Angel Rodas's Portfolio"
 author: "Angel Rodas"
 description: "Mechanical & Aerospace MS Student | UC Davis HRVIP Lab"
-theme: jekyll-theme-Midnight
-logo: assets/profile.png   # Optional — add your photo or logo
+
+# Theme
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Basic Site Settings
+title: "My Digital Garden"
+description: "A landing page powered by Jekyll"
+url: "https://username.github.io" 
+baseurl: "" # Leave empty if this is your main sitelogo: assets/profile.png   # Optional — add your photo or logo
+
+
 show_downloads: false           # Set true if you want a “Download” button
 github:
   is_project_page: false
