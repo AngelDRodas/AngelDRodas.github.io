@@ -12,7 +12,7 @@ plugins:
   - jekyll-include-cache
 
 # Basic Site Settings
-title: "My Digital Garden"
+title: "Angel Rodas's Portfolio"
 description: "A landing page powered by Jekyll"
 url: "https://username.github.io" 
 baseurl: "" # Leave empty if this is your main sitelogo: assets/profile.png   # Optional — add your photo or logo
