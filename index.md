@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Portfolio"
+title: "My Portfolio"
 ---
 
 Welcome! I'm a Mechanical & Aerospace Engineering graduate student at UC Davis.
