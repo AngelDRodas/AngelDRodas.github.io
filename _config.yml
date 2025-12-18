@@ -14,7 +14,7 @@ plugins:
 
 # Basic Site Settings
 title: "Angel Rodas's Portfolio"
-description: "A landing page powered by Jekyll"
+description: "A landing page for some of my projects"
 url: "https://username.github.io" 
 baseurl: "" # Leave empty if this is your main sitelogo: assets/profile.png   # Optional — add your photo or logo
 
