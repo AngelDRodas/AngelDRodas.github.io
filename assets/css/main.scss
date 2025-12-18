@@ -1,0 +1,41 @@
+---
+# Front matter is required
+---
+
+@import "minimal-mistakes/skins/neon"; // Pulls in Neon base
+
+/* Custom Palette Overrides */
+$primary-color: #64e8ba;    // Seafoam accent
+$action-color:  #219b71;    // Deep green for buttons/hovers
+$text-color:    #f1efef;    // Off-white text for readability
+
+/* Apply Overrides */
+a {
+  color: $primary-color;
+  &:hover {
+    color: $action-color;
+  }
+}
+
+.btn--primary {
+  background-color: $primary-color !important;
+  color: #000 !important; // Keeps button text readable
+  &:hover {
+    background-color: $action-color !important;
+  }
+}
+
+/* Sidebar and Header accents */
+.masthead {
+  border-bottom: 2px solid $primary-color;
+}
+
+.sidebar .nav__title {
+  background: $action-color;
+  color: $text-color;
+}
+
+/* Adjusting global text color */
+body {
+  color: $text-color;
+}
