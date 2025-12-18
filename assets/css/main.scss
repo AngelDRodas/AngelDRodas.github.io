@@ -1,39 +1,45 @@
 ---
-# Only the Sass file needs front matter (the dashes)
+# Front matter is required
 ---
 
 @charset "utf-8";
 
-// 1. Import the Skin FIRST
-// We load the Neon skin defaults so we have a base to work from.
+// 1. Import the Skin
 @import "minimal-mistakes/skins/neon";
 
-// 2. Override Your Colors
-// We define these BEFORE importing the main library so they take precedence.
-$primary-color: #64e8ba; // Your Seafoam Green
-$action-color:  #219b71; // Your Deep Green (for hover/buttons)
-$text-color:    #f1efef; // Your Off-White text
+// 2. Define Your Colors
+$seafoam:       #64e8ba;
+$deep-green:    #219b71;
+$off-white:     #f1efef;
 
-// Force links to match the primary color
-$link-color: $primary-color;
+// 3. FORCE the Link Colors
+// These specific variables control the hyperlinks
+$link-color:         $seafoam;
+$link-color-visited: $seafoam;  // Prevents links from turning purple after clicking
+$link-color-hover:   $deep-green; // Turns darker green when you hover
 
-// 3. Import the Main Theme Engine
-// This line generates the actual CSS. It must be LAST.
+// Update other core colors to match
+$primary-color:      $seafoam;
+
+// 4. Import the Main Theme
 @import "minimal-mistakes";
 
-/* 4. Custom CSS Rules (Optional extra tweaks) */
+/* 5. Extra Insurance CSS */
+/* If the variables above get ignored, this manual CSS forces the change */
+a {
+  color: $seafoam !important;
+}
+
+a:hover {
+  color: $deep-green !important;
+}
+
+a:visited {
+  color: $seafoam !important;
+}
+
+/* Fixes the "Read More" buttons on the landing page */
 .btn--primary {
-  background-color: $primary-color !important;
-  border-color: $primary-color !important;
-  color: #000 !important; // Black text on the bright green button
-}
-
-.btn--primary:hover {
-  background-color: $action-color !important;
-  border-color: $action-color !important;
-}
-
-// Fix for the site title color if it gets stuck
-.masthead__menu-item, .site-title, .site-title:visited {
-  color: $primary-color !important;
+  background-color: $seafoam !important;
+  color: #000 !important;
 }
