@@ -18,10 +18,6 @@ description: "A landing page for some of my projects"
 url: "https://username.github.io" 
 baseurl: "" 
 
-# customized stylesheet
-head_scripts:
-  - /assets/css/main.scss
-
 show_downloads: false          
 github:
   is_project_page: false
