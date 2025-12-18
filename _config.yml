@@ -12,14 +12,17 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Basic Site Settings
+# Basic site Settings
 title: "Angel Rodas's Portfolio"
 description: "A landing page for some of my projects"
 url: "https://username.github.io" 
-baseurl: "" # Leave empty if this is your main sitelogo: assets/profile.png   # Optional — add your photo or logo
+baseurl: "" 
 
+# customized stylesheet
+head_scripts:
+  - /assets/css/main.scss
 
-show_downloads: false           # Set true if you want a “Download” button
+show_downloads: false          
 github:
   is_project_page: false
   is_user_page: false
