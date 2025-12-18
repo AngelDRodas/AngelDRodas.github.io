@@ -5,7 +5,7 @@ description: "Mechanical & Aerospace MS Student | UC Davis HRVIP Lab"
 
 # Theme
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "contrast"
 
 plugins:
   - jekyll-remote-theme
