@@ -11,6 +11,7 @@ This site highlights some of my engineering and coding projects.
 **[HRV Data and Statistics Report](https://github.com/AngelDRodas/hrv-statistics-report/tree/main)**  
 *RStudio · Data Analysis*  
 Data Analysis and report of HRV data from a Kaggle Lifestyle Dataset
+
 <img src="assets/abstract.png" alt="Abstract of the Report" style="max-width: 500px; border-radius: 8px; margin-bottom: 10px;">
 
 **[UAV Trajectory Optimization](https://github.com/AngelDRodas/uav-trajectory-optimizer)**  
