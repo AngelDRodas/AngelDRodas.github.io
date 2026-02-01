@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "My Projects"
+title: "Welcome!"
 ---
 
-Welcome! I'm a Mechanical & Aerospace Engineering graduate student at UC Davis.
+I'm a Mechanical & Aerospace Engineering graduate student at UC Davis.
 This site highlights some of my engineering and coding projects.
 
 ## Projects
