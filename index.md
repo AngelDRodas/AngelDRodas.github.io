@@ -12,7 +12,10 @@ This site highlights some of my engineering and coding projects.
 *RStudio · Data Analysis*  
 Data Analysis and report of HRV data from a Kaggle Lifestyle Dataset
 
-<img src="assets/abstract.png" alt="Abstract of the Report" style="max-width: 500px; border-radius: 8px; margin-bottom: 10px;">
+**[Robot Arm Obstacle Course]([https://github.com/AngelDRodas/hrv-statistics-report/tree/main](https://github.com/AngelDRodas/robot-arm-obstacle-course/tree/main))**  
+*Solidworks · Manufacturing*  
+Design and Manufacture of a Robot Arm Obstacle Course for use at NASA's HERA facility at the Johnson Space Center
+<img src="assets/first_obs_course.png" alt="Obstacle Course Picture" style="max-width: 500px; border-radius: 8px; margin-bottom: 10px;">
 
 **[UAV Trajectory Optimization](https://github.com/AngelDRodas/uav-trajectory-optimizer)**  
 *MATLAB · Optimal Control*  
